@@ -42,7 +42,7 @@ function googleAnalyticsMiddleware(data) {
 }
 
 var unblockerConfig = {
-    prefix: '/textbooks/',
+    prefix: '/text/',
     responseMiddleware: [
         googleAnalyticsMiddleware
     ]
